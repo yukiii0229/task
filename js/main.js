@@ -7,13 +7,7 @@ const result = array.filter(function(x, i, self) {
   
   console.log(result);
   
-  
-function LeapYear(year){
-  if( (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
-    return true;
-  }
-  return false;
-}
+
 
 function LeapYear(year) {
   if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
